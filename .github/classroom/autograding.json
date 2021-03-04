@@ -1,0 +1,64 @@
+{
+  "tests": [
+    {
+      "name": "USerComponent",
+      "setup": "npm install",
+      "run": "ng test --include=src/app/user/user.component.spec.ts --browsers ChromeHeadless --watch=false",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": null
+    },
+    {
+      "name": "RestaurantComponent",
+      "setup": "npm install",
+      "run": "ng test --include=src/app/restaurant/restaurant.component.spec.ts --browsers ChromeHeadless --watch=false",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 1666
+    },
+    {
+      "name": "MenuComponent",
+      "setup": "npm install",
+      "run": "ng test --include=src/app/menu/menu.component.spec.ts --browsers ChromeHeadless --watch=false",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 16
+    },
+    {
+      "name": "restaurant-menu",
+      "setup": "npm install",
+      "run": "ng test --include=src/app/restaurant-menu/restaurant-menu.component.spec.ts --browsers ChromeHeadless --watch=false",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 16
+    },
+    {
+      "name": "register-component",
+      "setup": "npm install",
+      "run": "ng test --include=src/app/register/register.component.spec.ts --browsers ChromeHeadless --watch=false",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 16
+    },
+    {
+      "name": "LoginComponent",
+      "setup": "npm install",
+      "run": "ng test --include=src/app/login/login.component.spec.ts --browsers ChromeHeadless --watch=false",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 16
+    }
+  ]
+}
