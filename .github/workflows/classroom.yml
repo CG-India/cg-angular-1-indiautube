@@ -3,16 +3,9 @@
     on: [push]
 
     jobs:
-      cleaner:
-        runs-on: self-hosted
-        steps:
-          - name: Runer Workspace Path
-            run: |
-                echo "Cleaning up previous run"
-                rm -rf "${{ github.workspace }}"
       build:
         name: Autograding
-        runs-on: self-hosted
+        runs-on: ubuntu-latest
         steps:
           - uses: actions/checkout@v2
           - uses: education/autograding@v1
