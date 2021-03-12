@@ -12,7 +12,7 @@ import { RestaurantComponent } from '../restaurant/restaurant.component';
   templateUrl: './add-restaurant.component.html',
   styleUrls: ['./add-restaurant.component.css']
 })
-export class AddRestaurantComponent implements OnInit { 
+export class AddRestaurantComponent implements OnInit {
 
   regForm: FormGroup;
   check: boolean=true;
