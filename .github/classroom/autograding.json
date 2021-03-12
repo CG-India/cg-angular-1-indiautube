@@ -2,7 +2,7 @@
   "tests": [
     {
       "name": "USerComponent",
-      "setup": "export CHROME_BIN=/usr/bin/chromium-browser && npm install && npm install -g @angular/cli",
+      "setup": "export CHROME_BIN=/usr/bin/chromium-browser && npm install && npm install -g @angular/cli > /dev/null",
       "run": "ng test --browsers ChromeHeadless --watch=false",
       "input": "",
       "output": "",
