@@ -29,6 +29,16 @@
       "comparison": "included",
       "timeout": 10,
       "points": 25
+    },
+    {
+      "name": "Add-Menu-Component",
+      "setup": "",
+      "run": "ng test --include=src/app/add-menu/add-menu.component.spec.ts --browsers ChromeHeadless --watch=false",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 25
     }
   ]
 }
